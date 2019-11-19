@@ -1,0 +1,37 @@
+body{
+   background-image:url("images/index.png") ,url("https://media.giphy.com/media/aorAs0VoAlCmY/giphy.gif") ;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        background-attachment: scroll, fixed;
+}
+.boxcontent{
+right:250px;
+margin: 10px;
+width: 350px;
+color:black;
+ background-color: #FFF;
+ padding: 4px;
+    }
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+.readnext{
+color: #FFF;
+background-color: #9D080D;
+margin: 10px;
+padding: 5px 25px;
+/* width: 200px; */
+border-radius:  20px ;
+
+
+}
+
+/*#gif-bg{
+    background-image: ;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}*/
