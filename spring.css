@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+body{
+   background-image:url("images/spring.png")  ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        font-family: 'Prompt', sans-serif;
+}
+.contentfes{
+    margin: 30px 50px;
+            padding: 20px;
+            width: 1300px;
+            height: 400px;
+            color:black;
+            /* background-color: #FFF; */
+            background-color:blueviolet; 
+            padding: 15 px;
+            opacity: 60%;
+}

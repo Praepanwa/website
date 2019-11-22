@@ -11,33 +11,192 @@
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="hoverimg.css">
 </head>
-<script> function showText(){
-    var x = document.getElementById("readmore")
-}
-</script>
 <body>
     <section>
-        <div id="gif-bg">
-            <nav>
+        <div id="top" class="nav">
+           
                 <ul>
-                    <li><a href="#" style="color: black; padding-bottom: 38px;">Home</a></li>
-                    <li><a href="#" style="color: black; padding-bottom: 38px;">News</a></li>
-                    <li><a href="#" style="color: black;">Popular Festival</a></li>
-                    <li><a href="#" style="color: black; padding-bottom: 38px;">Calendar</a></li>
-                    <li><a href="#" style="color: black; padding-bottom: 38px;">Contact</a></li>
+                    <li><a href="#top" style="color: black; padding-bottom: 38px;">Home</a></li>
+                    <li><a href="#news" style="color: black; padding-bottom: 38px;">News</a></li>
+                    <li><a href="#top5" style="color: black;">Popular Festival</a></li>
+                        <div class="dropdown"><div class="dropbtn "><li><a href="#Seasons" style="color: black; padding-bottom: 38px;">Seasons</a></li></div>
+                        <div class="dropdown-content">
+                                <a href="spring.html" style="text-align: center;">Spring</a>
+                                <a href="summer.html" style="text-align: center;">Summer</a>
+                                <a href="autumn.html" style="text-align: center;">Autumn</a>
+                                <a href="winter.html" style="text-align: center;">Winter</a>
+                                </div>
+                                </div>
+                    
+                    <li><a href="contact.html" style="color: black; padding-bottom: 38px;">Contact</a></li>
                 </ul>
-            </nav>
+            
         </div>
 
+
+        <div style="position: absolute; top: 50%" class="boxcontent">
+            <p style="font-size: 2em;">เทศกาลญี่ปุ่น <sup style="font-size: 0.4em;color:#BB2F4F;">日本の祭り</sup></p>
+            <p><img src="images/rectangle.png" />ในแต่ละปีการฉลองเทศกาลต่างๆเผยให้เห็นถึงความนึกคิดของชาวญี่่ปุ่น
+                เตือนความทรงจำให้นึกถึงค่านิยมที่ยึดถือกันมานาน</p>
+            <center><a id="readmore"><button class="readnext" type="button" onclick="showText()">อ่านต่อ</button></a>
+            </center>
     </section>
-    <div style="position: absolute; top: 50%" class="boxcontent"><p style="font-size: 2em;">เทศกาลญี่ปุ่น <sup style="font-size: 0.4em;">日本の祭り</sup></p>
-        <p>ในแต่ละปีการฉลองเทศกาลต่างๆเผยให้เห็นถึงความนึกคิดของชาวญี่่น เตือนความทรงจำให้นึกถึงค่านิยมที่ยึดถือกันมานาน</p>
-       <center><a id="readmore"><button class="readnext"type="button" onclick="showText()">อ่านต่อ</button></a></center>
-    </div>
-    <div style="position: absolute; top: 120%">
+    <section>
+        <div style="position: absolute; top: 120%">
 
+            <table class="page2">
+                <tr>
+                    <td>
+                        <center>
+                            <p class="othercontent"><img src="images/japanflag.png" /><br /><img
+                                    src="images/rectangle.png" />This website created for people who are interested and
+                                want to know more about Japanese festivals.
 
+                        </center>
+                        </p>
+                    </td>
+                    <td>
+                        <center>
+                            <p class="othercontent"><img src="images/carpband.png" /><br /><img
+                                    src="images/rectangle.png" />If you want to know the history in detail of Japanese
+                                festivals.
+                                <a id="readmore" href="https://www.japan-guide.com/e/e2063.html"><button
+                                        class="readnext">Click Here</button></a>
+                        </center>
+                        </p>
+                    </td>
+                    <td>
+                        <center>
+                            <p class="othercontent"><img src="images/html.png" height="30%" /><br /><img
+                                    src="images/rectangle.png" />This website created for people who are interested and
+                                want to know more about Japanese festivals.
+                                <a id="readmore" href="https://www.w3schools.com/"><button class="readnext">Click
+                                        Here</button></a>
+                        </center>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <!-- </div> -->
+            <!-- </section>
+    <section> -->
+            <!-- <div id="news" style="position: absolute; top: 271.4%" > -->
+
+            <table id="news" style="margin-top: 90px; margin-left:250px;">
+                <center>
+                    <tr>
+                        <td>
+                            <div class="page3left">
+                                <p style="font-size: larger;">DISCOVER JAPAN
+                                    DESTINATIONS</p>
+                                <p>
+
+                                    dicovering more about Japanese festival,Travel Hilight and UPDATE news to planning
+                                    your memorable trip in JAPAN
+                                    <center><a href="https://www.japan.travel/en/"><button class="readnext"
+                                                type="button">Learn More</button></a>
+                                    </center>
+                                </p>
+                            </div>
+
+                        </td>
+                        <td>
+                            <p style="visibility: hidden;">Click link to website to find more information </p>
+                        </td>
+                        <td>
+                            <div class="page3"><img
+                                    src="https://res-3.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1513859435/akita/Akita471_2"
+                                    width="100%" /></div>
+
+                        </td>
+
+                    </tr>
+                </center>
+            </table>
+
+            <!-- </section>
+    <section> -->
+            <!-- <div id="top5" style="position: absolute; top: 360%"> -->
+            <div id="top5" style="margin-top: 350px;">
+                <div class="top5">
+                     <table>
+                        <tr>
+                            <td><p class="contentfes">เป็นเทศกาลซึ่งเป็นสัญลักษณ์การสิ้นสุดของฤดูหนาวอันยาวนานของภูมิภาคโทโฮคุ จัดขึ้นทุกปีที่เขตมิสุซาวะ (Mizusawa-ku) เมืองโอชู (Oshu-shi) จังหวัดอิวะเตะ (Iwate) ในงานเทศกาลจะมีขบวนแห่รถที่เรียกว่าดาชิ (Dashi) ซึ่งบรรทุกคณะนักดนตรีจำนวนมาก โดยขบวนแห่นี้จะเคลื่อนตัวไปทั่วตามท้องถนนในเมือง ภาพอันสวยงามของรถดาชิที่เคลื่อนตัวไปในยามค่ำคืนพร้อมกับเสียงขลุ่ยและกลองอันไพเราะ จะทำให้ผู้ที่ได้เห็นรู้สึกราวกับอยู่ในอีกโลกหนึ่งเลยทีเดียว</p>
+                            </td>
+                            <td>
+                                <img src="images/ImagesFastival/Spring/Hidaka.JPG" width="500" height="300">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="top5">
+                    <p>dfghjkl;dfghjkl</p>
+                </div>
+                <center><a id="readmore"><button class="readnext" type="button" onclick="showText()"
+                            style="margin-left: 50px;">More</button></a></center>
+            </div>
+            <div class="seasoncontent" style="margin-top: 35%;margin-bottom: 10%;">
+    <!-- </section>
+    <section> -->
+        <ul>
+            <li>
+                <div class="imageBox">
+                    <figure>
+                        <img src="hoverimg/summer.png">
+                        <figcaption>
+                            <h1>SUMMER FESTIVALS</h1>
+                            <p>Summer in particular have unforgrttable amazing festivals . Moreover, thanks to the great weather during in July and August, you will be able to fully enjoy these outdoor festivals day or night.</p>
+                            <a href="summer.html">Read More</a> 
+                        </figcaption>
+                    </figure>
+        
+                </div>
+            </li>
+        
+            <li>
+                <div class="imageBox">
+                    <figure>
+                        <img src="hoverimg/spring.png">
+                        <figcaption>
+                            <h1>SPRING FESTIVALS</h1>
+                            <p>The popular symbol of Japan during spring is the cherry blossom tree; they start blooming, during March and April.</p>
+                            <a href="spring.html">Read More</a> 
+                        </figcaption>
+                    </figure>
+        
+                </div>
+            </li>
+        
+            <li>
+                <div class="imageBox">
+                    <figure>
+                        <img src="hoverimg/autumn.png">
+                        <figcaption>
+                            <h1>AUTUMN FESTIVALS</h1>
+                            <p>The autumn festivals from all across the country include wild street races, parades of historical costumes, and gourmet street food that will satisfy even the most critical connoisseur.</p>
+                            <a href="autumn.html">Read More</a> 
+                        </figcaption>
+                    </figure>
+        
+                </div>
+            </li>
+        
+            <li>
+                <div class="imageBox">
+                    <figure>
+                        <img src="hoverimg/winter.png">
+                        <figcaption>
+                            <h1>WINTER FESTIVALS</h1>
+                            <p> Winter in Japan is pretty cold, especially in northern areas like Hokkaido, Tohoku region and Northern Kanto region, and one of the best ways to enjoy the snowy and icy winter in Japan is visiting snow festivals.</p>
+                            <a href="winter.html">Read More</a> 
+                        </figcaption>
+                    </figure>
+        
+                </div>
+            </li>
+        </ul>
     </div>
 </body>
 

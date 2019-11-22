@@ -1,0 +1,143 @@
+html,body{
+	margin: 0;
+	padding:auto;
+	height: 100%;
+	width: 100%
+}
+.entersite {
+      box-sizing: border-box;
+      }
+      .entersite {
+      
+      padding-top: 250px;
+      background-image: url(img/entersite.png);
+      background-repeat: no-repeat;
+      transition: transform .2s;
+      width:366px;
+      height: 145px;
+      margin:550px 0px 0px 620px;
+      
+
+
+      }
+      .entersite:hover,.entersite:focus {
+      transform: scale(1.1);
+
+      }
+
+slider {
+ display: block;
+ width: 100%;
+ height: 100%;
+ background-color: #1f1f1f;
+ overflow: hidden;
+ position: absolute;
+}
+
+slider > * {
+ position: absolute;
+ display: block;
+ width: 100%;
+ height: 100%;
+ background: #1f1f1f;
+ animation: slide 12s infinite;
+ overflow: hidden;
+}
+
+slide:nth-child(1){
+ left: 0%;
+ animation-delay: -1s;
+ background-image: url("img/header.png");
+ background-size: cover;
+ background-position: center;
+}
+
+slide:nth-child(2){
+ animation-delay: 2s;
+ background-image: url("img/slide1.png");
+ background-size: cover;
+ background-position: center;
+}
+
+slide:nth-child(3){
+ animation-delay: 5s;
+ background-image: url("img/noon.png");
+ background-size: cover;
+ background-position: center;
+}
+
+slide:nth-child(4){
+ left: 0%;
+ animation-delay: 8s;
+ background-image: url("img/slide2.png");
+ background-size: cover;
+ background-position: center;
+}
+
+slide p {
+ font-family: Comfortaa;
+ font-size: 70px;
+ text-align: center;
+ display: inline-block;
+ width: 100%;
+ margin-top: 340px;
+ color: #fff;
+}
+
+@keyframes slide {
+ 0% { left: 100%; width: 100%; }
+ 5% { left: 0%; }
+ 25% { left: 0%; }
+ 30% { left: -100%; width: 100%; }
+ 30.0001% { left: -100%; width: 0%; }
+ 100% { left: 100%; width: 0%; }
+}
+nav
+{
+	width: 100%;
+	background: #302516;
+	overflow: auto;
+	z-index: 1;
+	position: absolute;
+
+}
+ul{
+	padding:0;
+	margin: 0 0 0 100px;
+	list-style: none;
+	
+}
+li{
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	
+
+}
+.logo img{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 35px;
+	z-index: 2;
+
+}
+nav a{
+	width: 100px;
+	display: block;
+	padding:20px 15px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+nav ul li a:hover{
+	background: #ffd155;
+	transition: 0.5s;
+	
+	
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}

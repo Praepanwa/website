@@ -1,0 +1,39 @@
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100px;
+   height: auto;
+   background-color:#821616;
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: 1;
+ }
+ 
+li a {
+   display: block;
+   color: #000;
+   text-decoration: none;
+ }
+ a.home:hover{
+  
+   background:rgb(114, 78, 58);
+   transition: 0.5s; 
+} 
+ a.spring:hover{
+   background:#ffb7c5;
+   transition: 0.5s; 
+} 
+ a.summer:hover{
+   background:#CDF692;
+   transition: 0.5s; 
+} 
+a.autumn:hover{
+   background:#A02900;
+   transition: 0.5s; 
+} 
+a.winter:hover{
+   background:#ABD1F3;
+   transition: 0.5s; 
+}  
